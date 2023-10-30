@@ -1,0 +1,391 @@
+body{
+    /* navibar section */
+    /* logo responsive */
+    @media (max-width:991px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 48rem;
+        }  
+    }
+    @media (max-width:953px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 45rem;
+        }  
+    }
+    @media (max-width:900px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 42rem;
+        }  
+    }
+    @media (max-width:848px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 40rem;
+        }  
+    }
+    @media (max-width:816px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 35rem;
+        }  
+    }
+    @media (max-width:741px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 30rem;
+        }  
+    }
+    @media (max-width:669px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 25rem;
+        }  
+    }
+    @media (max-width:575px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 20rem;
+        }  
+    }
+    @media (max-width:500px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 15rem;
+        }  
+    }
+    @media (max-width:416px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 13rem;
+        }  
+    }
+    @media (max-width:388px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 10rem;
+        }  
+    }
+    @media (max-width:340px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 7rem;
+        }  
+    }
+    @media (max-width:320px) {
+        .logo-h{
+            color: rgb(0, 0, 0);
+           margin-right: 5rem;
+        }  
+    }
+    /* ------------------------- */
+    .search-bar-form input{
+        color: rgb(172, 169, 169);
+        border: 1px solid rgb(172, 169, 169);
+      }
+    .search-bar-form button{
+      color: rgb(116, 116, 116);
+      border: 1px solid rgb(170, 170, 170);
+    }
+    /* navbar section ends  */
+    /* container 1 starts  */
+    .c1-h1{
+        font-size: 4rem;
+        font-weight: 800;
+        color: rgb(34, 46, 99);
+    }
+    .c1-h1 span{
+        background: -webkit-linear-gradient( left ,rgb(27, 235, 138), rgb(14, 191, 223));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .c1-h2{
+        margin-top: -.8rem;
+        font-size: 4rem;
+        font-weight: 800;
+        color: rgb(34, 46, 99);
+    }
+    /* container 1 heading section responsive  */
+    @media (max-width:450px) {
+        .c1-h1{
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgb(34, 46, 99);
+        }
+        .c1-h2{
+            margin-top: -0rem;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgb(34, 46, 99);
+        }
+        .c1-p1{
+            margin-top: .8rem;
+        } 
+    }
+    /* ----------------------- */
+    /* container 1 mid section */
+    #c1-mid button{
+      border-radius: 5px;
+    }
+    #c1-mid-btn1{
+        background-color: rgb(102, 206, 166);
+        color: white;
+        font-weight: 500;
+    }
+    #c1-mid-btn1 i{
+        font-size: 18px;
+    }
+    #c1-mid-btn1:hover{
+       background-color:rgb(74, 172, 134) ;
+       transition: all .5s ease-in-out;
+    }
+    #c1-mid-btn2:hover i{
+        transition: all .5s ease-in-out;
+        transform: scale(1.3);
+    }
+    #c1-mid-btn2:hover , #c1-mid-btn3:hover{
+        background-color: rgb(230, 230, 230); 
+    }
+    /* container 1 bottom */
+    #c1-btm-h4{
+        /* margin-top: -.3rem; */
+        cursor: pointer;
+    }
+
+    #c1-btm-h4 a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.7rem;
+    }
+    /* ------container-1-end-------------- */
+    /* container  starts */
+    #container-2 h3{
+        font-size: 1.1rem;
+    }
+    @media (min-width:1400px) {
+        #containerr-2{
+            width: 95%;
+        }  
+    }
+    /*-------container--2--end------------*/
+    /* container 3 starts */
+    #container-3{
+        width: 78%;
+    }
+                 /* container 3 items responsive*/
+    @media (min-width:768px) {      
+        #container-2{
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        #item1{width: 23%;}
+        #item2{width: 23%;}
+        #item3{width: 23%;}
+    }
+    /* ---------------- */
+    #container-3-img img{
+        background-color: gainsboro;
+        margin-top: 5px;
+        width: 30%;
+        cursor: pointer;
+    }
+    #img1{padding: 20px 15px;}
+    #img2{padding:6px 15px;}
+    #img3{padding:20px 15px ;}
+    #img4{padding:10px 15px;}
+    #img5{padding: 21px 5px;}
+    #img6{padding:11px 15px;}
+    #img7{padding: 0px 15px;}
+    #img8{padding: 23px 15px;}
+    #img9{padding: 10px 15px;}
+
+    /* imgs responsive for lagr screen 1400+ px */
+    @media (min-width:1400px){
+        #container-3-img img{
+            background-color: gainsboro;
+            margin-top: 5px;
+            width: 27%;
+            cursor: pointer;
+        }
+        #container-3-img{
+            margin-left: 1.5rem;
+        }
+        #container-3 h3{
+            margin-left: 1.5rem;
+        }
+    }
+    @media (min-width:1550px){
+        #container-3-img{
+            margin-left: 2.5rem;
+            width: 93%;
+        }
+        #container-3 h3{
+            margin-left: 2.5rem;
+        }
+    }
+    @media (min-width:1850px){
+        #container-3-img{
+            margin-left: 4rem;
+            width: 90%;
+        }
+        #container-3 h3{
+            margin-left: 4rem;
+        }
+        #img1{padding: 25px 10px;}
+        #img2{padding: 10px 10px;}
+        #img3{padding: 26px 10px ;}
+        #img4{padding: 2px 10px;}
+        #img5{padding: 20px 10px;}
+        #img6{padding: 5px 10px;}
+        #img7{padding: 0px 10px; height: 28%;}
+        #img8{padding: 20px 10px;}
+        #img9{padding: 6px 10px;}
+    }
+    /* ------------------------------- */
+    /* imgs responsive for lower screen below 1200px */
+
+    @media (max-width:1200px) {
+        #img1{padding: 20px 15px;}
+        #img2{padding:9px 15px 7px 15px;}
+        #img3{padding:20px 15px ;}
+        #img4{padding:12px 15px 10px 15px;}
+        #img5{padding: 21px 5px;}
+        #img6{padding:13px 15px 11px 15px;}
+        #img7{padding: 0px 15px;}
+        #img8{padding: 21px 15px;}
+        #img9{padding: 10px 15px 8px 15px;} 
+    }
+    @media (max-width:1100px) {
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 10px 15px 7px 15px;}
+        #img3{padding: 20px 15px 17px 15px ;}
+        #img4{padding: 12px 15px 10px 15px;}
+        #img5{padding: 20px 5px;}
+        #img6{padding: 13px 15px 11px 15px;}
+        #img7{padding: 0px 15px;}
+        #img8{padding: 21px 15px;}
+        #img9{padding: 15px 15px 8px 15px;} 
+    }
+    @media (max-width:1000px) {
+        #container-3{
+            width: 80%;
+        }
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 12px 15px 7px 15px;}
+        #img3{padding: 20px 15px 17px 15px ;}
+        #img4{padding: 15px 15px 10px 15px;}
+        #img5{padding: 20px 5px;}
+        #img6{padding: 17px 15px 11px 15px;}
+        #img7{padding: 2px 15px;}
+        #img8{padding: 21px 15px;}
+        #img9{padding: 15px 15px 8px 15px;} 
+    }
+    @media (max-width:900px) {
+        #container-3-img img{
+            background-color: gainsboro;
+            margin-top: 5px;
+            width: 32%;
+            cursor: pointer;
+        }
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 12px 15px 7px 15px;}
+        #img3{padding: 20px 15px 17px 15px ;}
+        #img4{padding: 15px 15px 10px 15px;}
+        #img5{padding: 20px 5px;}
+        #img6{padding: 17px 15px 11px 15px;}
+        #img7{padding: 2px 15px;}
+        #img8{padding: 18px 15px;}
+        #img9{padding: 15px 15px 8px 15px;} 
+    }
+    /* ----------------------------------------- */
+    /* container 3 part 2 */
+    #container-3-2-img img{
+        background-color: gainsboro;
+        margin-top: 5px;
+        width: 30%;
+        cursor: pointer;
+    }
+    @media (max-width:680px){
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 15px 15px 7px 15px;}
+        #img3{padding: 20px 15px 17px 15px ;}
+        #img4{padding: 15px 15px 10px 15px;}
+        #img5{padding: 20px 5px;}
+        #img6{padding: 17px 15px 11px 15px;}
+        #img7{padding: 0px 15px;}
+        #img8{padding: 15px 15px;}
+        #img9{padding: 12px 15px 8px 15px;} 
+    }
+    @media (max-width:620px){
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 17px 15px 7px 15px;}
+        #img3{padding: 20px 15px 18px 15px ;}
+        #img4{padding: 18px 15px 10px 15px;}
+        #img5{padding: 19px 5px;}
+        #img6{padding: 18px 15px 11px 15px;}
+        #img7{padding: 0px 15px; height: 28%;}
+        #img8{padding: 15px 15px;}
+        #img9{padding: 12px 15px 8px 15px;} 
+    }
+    @media (max-width:500px){
+        #container-3-2-img img{
+            background-color: gainsboro;
+            margin-top: 5px;
+            width: 32%;
+            cursor: pointer;
+        }
+        #img1{padding: 18px 5px 20px 5px;}
+        #img2{padding: 16px 5px 6px 5px;}
+        #img3{padding: 20px 5px 16px 5px ;}
+        #img4{padding: 16px 5px 9px 5px;}
+        #img5{padding: 19px 5px;}
+        #img6{padding: 18px 5px 11px 5px;}
+        #img7{padding: 0px 5px;}
+        #img8{padding: 15px 5px;}
+        #img9{padding: 10px 5px 8px 5px;} 
+    }
+    @media (max-width:450px){
+        #container-3-2-img img{
+            background-color: gainsboro;
+            margin-top: 4px;
+            width: 42%;
+            cursor: pointer;
+            margin-left: .5rem;
+        }
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 17px 15px 6px 15px;}
+        #img3{padding: 20px 15px 16px 15px ;}
+        #img4{padding: 12px 15px 7px 15px;}
+        #img5{padding: 19px 15px;}
+        #img6{padding: 16px 15px 11px 15px;}
+        #img7{padding: 0px 15px; display: none;}
+        #img8{padding: 15px 15px;}
+        #img9{padding: 10px 15px 8px 15px;} 
+    }
+    @media (max-width:376px){
+        #container-3-2-img img{
+            background-color: gainsboro;
+            margin-top: 4px;
+            width: 80%;
+            cursor: pointer;
+        }
+        #img1{padding: 18px 15px 20px 15px;}
+        #img2{padding: 17px 15px 6px 15px;}
+        #img3{padding: 20px 15px 16px 15px ;}
+        #img4{padding: 12px 15px 7px 15px;}
+        #img5{padding: 19px 15px;}
+        #img6{padding: 16px 15px 11px 15px;}
+        #img8{padding: 15px 15px;}
+        #img9{padding: 10px 15px 8px 15px;} 
+    }
+    /* ---------------------------------------------- */
+    /* footer starts */
+    #footer{
+        background-color: rgb(243, 243, 243);
+    }
+    #footer-p2{
+        margin-top: 
+        -1rem;
+    }
+}
