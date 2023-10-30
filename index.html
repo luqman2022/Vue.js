@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap offline link -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Font Links -->
+  <link href="https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900,300italic,
+   italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+  <!-- Font awesome  Icon Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- logo -->
+      <a class="navbar-brand logo d-none" href="#">
+        <a class="navbar-logo d-flex" href="#">
+          <img src="imgs/logo vue.png" alt="" width="35" height="26">
+          <!-- <h4 class="text-muted logo-h">Vue.js</h4> -->
+        </a>
+        <h4 class="logo-h">Vue.js</h4>
+      </a>
+      <!-- logo end -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-ul" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-xl-5 ms-lg-4">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Docs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Guide</a></li>
+              <li><a class="dropdown-item" href="#">Tutorials</a></li>
+              <li><a class="dropdown-item" href="#">Examples</a></li>
+              <li><a class="dropdown-item" href="#">Quick Start</a></li>
+              <li><a class="dropdown-item" href="#">Glossary</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Playground</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Ecosystem
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Theme</a></li>
+              <li><a class="dropdown-item" href="#">Jobs</a></li>
+              <li><a class="dropdown-item" href="#">Certification</a></li>
+              <li><a class="dropdown-item" href="#">T-Shirt Shop</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Vue Router</a></li>
+              <li><a class="dropdown-item" href="#">Pinia</a></li>
+              <li><a class="dropdown-item" href="#">Tooling Guide</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Vue Master</a></li>
+              <li><a class="dropdown-item" href="#">Vue School</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Discord Chat</a></li>
+              <li><a class="dropdown-item" href="#">GitHub Discussions</a></li>
+              <li><a class="dropdown-item" href="#">DEV Community</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">FAQ</a></li>
+              <li><a class="dropdown-item" href="#">Team</a></li>
+              <li><a class="dropdown-item" href="#">Releases</a></li>
+              <li><a class="dropdown-item" href="#">Community Guide</a></li>
+              <li><a class="dropdown-item" href="#">Code of Conduct</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Partners</a>
+          </li>
+          <!-- fonts awesome icons strts in navbar -->
+          <!-- language-->
+          <li class="nav-item">
+            <a class="nav-link d-lg-none d-xl-block" href="#" tabindex="-1" aria-disabled="true"><i
+                class="material-icons ms-xl-5" style="font-size: 20px; padding-top: 3px;">translate</i></a>
+          </li>
+          <!-- on/off button-->
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+              <i class="fa-solid fa-toggle-off ms-xl-2"
+                style="color: rgb(204, 202, 202); font-size: 20px; padding-top: 3px;"></i></a>
+          </li>
+          <!-- github -->
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-github ms-xl-2"
+                style="font-size: 20px; padding-top: 3px;"></i></a>
+          </li>
+          <!-- twitter -->
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa fa-twitter ms-xl-2"
+                style="font-size: 20px; padding-top: 3px;"></i></a>
+          </li>
+          <!-- discord -->
+          <li class="nav-item">
+            <a class="nav-link d-lg-none d-xl-block" href="#" tabindex="-1" aria-disabled="true"><i
+                class="fa fa-discord ms-xl-2" style="font-size: 20px; padding-top: 3px;"></i></a>
+          </li>
+          <!-- icons end -->
+        </ul>
+        <!-- search bar -->
+        <form class="d-flex ms-5 search-bar-form">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- search bar end -->
+      </div>
+    </div>
+  </nav>
+  <!-- navbar ends -->
+  <!-- container 1 starts -->
+  <!-- container 1 top heading section -->
+  <div class="container-fluid">
+    <div class="col-12">
+      <h1 class="c1-h1 text-center mt-5 pt-3">The &nbsp<span>Progressive</span></h1>
+      <h1 class="c1-h2 text-center">JavaScript Framework</h1>
+      <p class="c1-p1 fs-4 text-muted pt-2 text-center ">An approachable, performant and versatile framework for
+        building web user interfaces.</p>
+    </div>
+    <!-- container 1 middle buttons -->
+    <div id="c1-mid"
+      class="container-fluid px-5 text-center mt-5 d-flex flex-column flex-sm-row justify-content-center">
+      <!-- button 1 -->
+      <button id="c1-mid-btn1" class="pt-1 pb-1 ps-3 pe-3 me-2 me-sm-4 me-xxl-5 mb-4 mb-sm-0 border-0">
+        <i class="fa fa-play-circle"></i>&nbspWhy Vue</button>
+      <!-- button 2 -->
+      <button id="c1-mid-btn2" class="pt-1 pb-1 ps-3 pe-3 me-2 me-sm-4 me-xxl-5 mb-4 mb-sm-0 border-0">
+        <i class=""></i>Get Started&nbsp <i class="fa-light fa fa-arrow-right-long" style="color: #000000;"></i>
+      </button>
+      <!-- button 3 -->
+      <button id="c1-mid-btn3" class="pt-1 pb-1 ps-3 pe-3 me-2 me-sm-4 me-xxl-5 mb-4 mb-sm-0 border-0">
+        <i class=""></i>Install</button>
+    </div>
+    <!-- container 1 <hr>  -->
+    <div class="pt-5">
+      <hr>
+      <div id="c1-btm" class="d-flex justify-content-center align-items-center flex-column flex-sm-row">
+        <h6 class="text-muted me-4 me-xl-5 mb-2 mb-sm-0">Special Sponser</h6>
+        <h4 id="c1-btm-h4"><i class="fa fa-adn" aria-hidden="true"></i>&nbsp<a href="">appwrite</a></h4>
+        <h6 class="text-muted muted ms-4 ms-xl-5 mt-2 mt-sm-0">Build like a team of hundreds_</h6>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <!--------------container---1---end----------->
+  <!--Container 2 starts -->
+  <div id="containerr-2" class="container-fluid">
+    <div id="container-2" class="d-flex flex-column flex-md-row mt-5 px-3 px-sm-5 px-md-0 mb-3">
+      <!-- item 1 -->
+      <div id="item1" class="pe-md-3 pe-xl-5">
+        <h3>Approachable</h3>
+        <p class="text-muted pt-1 pe-xxl-5">Builds on top of standard HTML,
+          CSS and JavaScript with intuitive
+          API and world-class documentation.</p>
+      </div>
+      <!-- item 2 -->
+      <div id="item2" class="pe-md-3 pe-xl-5">
+        <h3>Performant</h3>
+        <p class="text-muted pt-1 pe-xxl-5">Truly reactive, compiler-
+          optimized rendering system
+          that rarely requires manual
+          optimization.</p>
+      </div>
+      <!-- item 3 -->
+      <div id="item3" class="pe-md-3 pe-xl-5">
+        <h3>Versatile</h3>
+        <p class="text-muted pt-1 pe-xxl-5">A rich, incrementally
+          adoptable ecosystem that
+          scales between a library and
+          a full-featured framework.</p>
+      </div>
+    </div>
+  </div>
+  <!-----------container----2------end--------->
+  <!-- container 3 part 1 starts -->
+  <div class="container-fluid d-flex justify-content-center">
+    <div id="container-3" class="row mb-5 d-flex">
+      <h3 class="mt-5 mb-4 d-none d-md-block">platinum sponser</h3>
+      <div id="container-3-img" class="d-none d-md-block">
+        <!-- Vue Master -->
+        <img id="img1" src="imgs/vue master 1 (2).png" alt="">
+        <!-- passionate People -->
+        <img id="img2" src="imgs/passionate_people.png" alt="">
+        <!-- story blok -->
+        <img id="img3" src="imgs/storyblok-logo.svg" alt=""> <br>
+        <!-- ionic -->
+        <img id="img4" src="imgs/ioniccc.png" alt="">
+        <!-- herodevs -->
+        <img id="img5" src="imgs/herodevs.png" alt="">
+        <!-- skill hub -->
+        <img id="img6" src="imgs/skill hub.png" alt=""> <br>
+        <!-- infosec skill -->
+        <img id="img7" src="imgs/infosec skil.png" alt="" height="30%">
+        <!-- chrome -->
+        <img id="img8" src="imgs/chromeeee.png" alt="">
+        <!-- Vue.js -->
+        <img id="img9" src="imgs/vuejs-logo.webp" alt="">
+      </div>
+    </div>
+  </div>
+  <!------------container--3--part--1--end----->
+  <!--container 3 patr 2 starts----->
+  <div class="container-fluid">
+    <div class="row ps-2 ps-sm-5">
+      <h3 class="d-md-none">platinum sponser</h3>
+      <div id="container-3-2-img" class="d-md-none mt-3">
+        <!-- Vue Master -->
+        <img id="img1" src="imgs/vue master 1 (2).png" alt="">
+        <!-- passionate People -->
+        <img id="img2" src="imgs/passionate_people.png" alt="">
+        <!-- story blok -->
+        <img id="img3" src="imgs/storyblok-logo.svg" alt="">
+        <!-- ionic -->
+        <img id="img4" src="imgs/ioniccc.png" alt="">
+        <!-- herodevs -->
+        <img id="img5" src="imgs/herodevs.png" alt="">
+        <!-- skill hub -->
+        <img id="img6" src="imgs/skill hub.png" alt="">
+        <!-- infosec skill -->
+        <img id="img7" src="imgs/infosec skil.png" alt="" height="30%">
+        <!-- chrome -->
+        <img id="img8" src="imgs/chromeeee.png" alt="">
+        <!-- Vue.js -->
+        <img id="img9" src="imgs/vuejs-logo.webp" alt="">
+      </div>
+    </div>
+  </div>
+  <!---------------container--4--part--2---ends-------->
+  <!-- footer starts -->
+  <div id="footer" class="container-fluid">
+    <div id="footer-box" class="container text-md-center">
+      <div class="row mt-5 mt-md-0 pt-5 ms-1 ms-sm-0 flex-column flex-sm-row">
+        <!-- item 1 -->
+        <div id="item1" class="item1">
+          <h3>Docs</h3>
+          <p>Guide</p>
+          <p>Tutorials</p>
+          <p>Get Started</p>
+          <p>Examples</p>
+          <p>Glossary</p>
+          <p>Vue 2 Docs</p>
+          <p>Migration From Vue 2</p>
+          <!-- item 1 part 2 -->
+          <h3 class="pt-1 pt-md-3">About</h3>
+          <p>FAQ</p>
+          <p>Team</p>
+          <p>Releases</p>
+          <p>Community Guide</p>
+          <p>Code of Conduct</p>
+          <p>the Documentary</p>
+        </div>
+        <!-- ------------------------------- -->
+        <!-- item 2 -->
+        <div id="item2" class="item2 ms-md-4 me-md-4">
+          <h3>Resourses</h3>
+          <p>Partners</p>
+          <p>Themes</p>
+          <p>Certifications</p>
+          <p>Jobs</p>
+          <p>T-Shirt Shops</p>
+          <!-- item 2 part 2 -->
+          <h3 class="pt-1 pt-md-3">Official library</h3>
+          <p>Vue Router</p>
+          <p>Pinia</p>
+          <p>Tooling Guide</p>
+           <!-- item 2 part 3 -->
+           <h3 class="pt-1 pt-md-3">Video Courses</h3>
+           <p>Vue Master</p>
+           <p>Vue School</p>
+        </div>
+        <!-- ------------------------ -->
+        <!-- item 3 -->
+        <div id="item3" class="item3">
+          <h3>Help</h3>
+          <p>Discord Chat</p>
+          <p>GitHub Discussions</p>
+          <p>DEV Community</p>
+           <!-- item 2 part 3 -->
+           <h3 class="pt-1 pt-md-4">News</h3>
+           <p>Blogs</p>
+           <p>Twitter</p>
+           <p>Events</p>
+           <p>Newsletters</p>
+          </div>
+          <!-- ----------- -->
+      </div>
+    </div>
+    <div class="text-center mt-3 pb-3">
+      <p><span class="text-muted">Released under the</span> MIT license</p>
+      <p id="footer-p2" class="text-muted">Copyright © 2014-2023 Evan You</p>
+    </div>
+  </div>
+  <!--Footer----end----->
+
+  <!-- ------------ -->
+  <!-- jquery & js offline links -->
+  <script src="bootstrap/js/jquery-3.7.1.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
